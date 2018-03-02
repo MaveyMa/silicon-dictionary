@@ -1,0 +1,231 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Feedo - Free Bootstrap Theme
+ * Version: 1.0
+ * URL: http://blacktie.co/
+ */
+
+/* OVERALL ASPECT */
+
+body {
+    background-color: #f2f2f2;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inknut Antiqua', serif;
+    font-weight: 700;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+.filterSection td {
+	border: 1px solid #39645a; 
+	width: 50%;
+	padding: 10px;
+	padding-left: 5%;
+}
+
+.displayMenu td {
+	border: 1px solid #39645a; 
+	padding: 10px;
+}
+
+th {
+	padding-left: 10px;
+}
+
+input[type=submit] {
+    background-color: #93032E;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*=================================*/
+/*Pure css popup box, A PEN BY Prakash, https://codepen.io/imprakash/pen/GgNMXO?editors=1100*/
+.button {
+  font-size: 1em;
+  padding: 5px;
+  color: black;
+  border: 2px solid #93032E;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #B2ABF2;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+/*Pure css popup box, A PEN BY Prakash, https://codepen.io/imprakash/pen/GgNMXO?editors=1100*/
+/*=================================*/
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.goleft {
+	text-align: left;
+}
+
+/* Links */
+a {
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #080808;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.mb10 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.centered {
+	text-align: center;
+}
+
+/* CONFIGURATION FOR Feedo */
+
+.site {
+	background: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 5px #2f2f2f;
+}
+.site-title {
+	background: #93032E;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 20px;
+}
+
+.site-title h2 {
+  font-family: 'Inknut Antiqua', serif;
+	font-weight: 400;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+}
+
+.site-footer {
+	margin-left: -15px;
+	margin-right: -15px;
+	text-align: center;
+}
+
+.post {
+	display: block;
+	padding-top:15px;
+	padding-bottom: 15px;
+	/*margin-top: 15px;*/
+	/*margin-bottom: 15px;*/
+	margin: 27px;
+	border-bottom: 1px solid #ddd;
+}
